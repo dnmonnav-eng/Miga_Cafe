@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Cafés | Miga Café Monterrey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icono">M</span>
+            <span class="logo-texto">Miga Café</span>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="cafes.html" class="activo">Cafés y Catálogo</a>
+            <a href="historia.html">Nuestra historia</a>
+            <a href="visitanos.html">Visítanos</a>
+        </nav>
+        <div class="carrito">
+            <a href="#carrito">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                Carrito (0)
+            </a>
+        </div>
+    </header>
+
+    <section class="catalogo-section">
+        <div class="catalogo-encabezado">
+            <h1>Cafés con algo que contar.</h1>
+            <p>Elegimos lotes excepcionales de productores mexicanos y los tostamos semanalmente para revelar su perfil único.</p>
+        </div>
+
+        <div class="catalogo-grid">
+            <!-- CAFÉ 1 -->
+            <article class="tarjeta-cafe">
+                <div class="imagen-box">
+                    <div class="estampa-favorito">Favorito</div>
+                    <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop" alt="Sierra de Chiapas">
+                    <button class="btn-agregar" aria-label="Agregar">+</button>
+                </div>
+                <div class="tarjeta-info">
+                    <span class="origen-tag">CHIAPAS · 1,600 MSNM</span>
+                    <div class="titulo-precio">
+                        <h2>Sierra de Chiapas</h2>
+                        <span class="precio">$285 MXN</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CAFÉ 2 -->
+            <article class="tarjeta-cafe">
+                <div class="imagen-box">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop" alt="Bosque de Veracruz">
+                    <button class="btn-agregar" aria-label="Agregar">+</button>
+                </div>
+                <div class="tarjeta-info">
+                    <span class="origen-tag">VERACRUZ · 1,450 MSNM</span>
+                    <div class="titulo-precio">
+                        <h2>Bosque de Veracruz</h2>
+                        <span class="precio">$310 MXN</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CAFÉ 3 -->
+            <article class="tarjeta-cafe">
+                <div class="imagen-box">
+                    <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=800&auto=format&fit=crop" alt="Luna de Oaxaca">
+                    <button class="btn-agregar" aria-label="Agregar">+</button>
+                </div>
+                <div class="tarjeta-info">
+                    <span class="origen-tag">OAXACA · 1,750 MSNM</span>
+                    <div class="titulo-precio">
+                        <h2>Luna de Oaxaca</h2>
+                        <span class="precio">$325 MXN</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CAFÉ 4 -->
+            <article class="tarjeta-cafe">
+                <div class="imagen-box">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop" alt="Volcán de Colima">
+                    <button class="btn-agregar" aria-label="Agregar">+</button>
+                </div>
+                <div class="tarjeta-info">
+                    <span class="origen-tag">COLIMA · 1,500 MSNM</span>
+                    <div class="titulo-precio">
+                        <h2>Volcán de Colima</h2>
+                        <span class="precio">$295 MXN</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CAFÉ 5 -->
+            <article class="tarjeta-cafe">
+                <div class="imagen-box">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop" alt="Niebla de Puebla">
+                    <button class="btn-agregar" aria-label="Agregar">+</button>
+                </div>
+                <div class="tarjeta-info">
+                    <span class="origen-tag">PUEBLA · 1,650 MSNM</span>
+                    <div class="titulo-precio">
+                        <h2>Niebla de Puebla</h2>
+                        <span class="precio">$315 MXN</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- CAFÉ 6 -->
+            <article class="tarjeta-cafe">
+                <div class="imagen-box">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop" alt="Altura de Nayarit">
+                    <button class="btn-agregar" aria-label="Agregar">+</button>
+                </div>
+                <div class="tarjeta-info">
+                    <span class="origen-tag">NAYARIT · 1,800 MSNM</span>
+                    <div class="titulo-precio">
+                        <h2>Altura de Nayarit</h2>
+                        <span class="precio">$340 MXN</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer-principal">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo logo-footer">
+                    <span class="logo-icono">M</span>
+                    <span class="logo-texto">Miga Café</span>
+                </div>
+                <p>Café de especialidad en Monterrey.</p>
+            </div>
+            <div class="footer-bottom" style="border:none; padding:0;">
+                <p>&copy; 2026 Miga Café. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
